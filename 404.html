@@ -1,8 +1,0 @@
-<script>
-  // Redirect to index.html for all non-file paths
-  const pathname = window.location.pathname;
-  const redirect = pathname.startsWith("/simple-dashboard")
-    ? "/simple-dashboard/index.html"
-    : "/index.html";
-  window.location.replace(redirect + "?redirect=" + pathname);
-</script>
